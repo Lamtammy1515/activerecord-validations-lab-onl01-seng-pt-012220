@@ -1,3 +1,4 @@
 class Author < ActiveRecord::Base
-  validates :author, uniqueness: true
+  validates :authors, uniqueness: true
+  
 end
